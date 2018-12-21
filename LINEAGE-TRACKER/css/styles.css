@@ -1,0 +1,209 @@
+body{
+  background-image: url("https://images.pexels.com/photos/52503/clouds-the-rays-the-sun-after-the-storm-52503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#overlay{
+    overflow:auto;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index:2;
+    x:0;
+  }
+.jumbotron{
+  border-radius: 10px;
+  color:maroon;
+
+}
+#welcome{
+  font-size: 36px;
+  font-weight: 900;
+  color: #800000;
+}
+p{
+  font-family: 'Lobster', cursive;
+  color: maroon;
+  font-size: 30px;
+}
+.parallax {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fpeople-network-map-red-data-connections-clip-available-multiple-colors-loops-seamlessly-74036836.jpg");
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fpeople-network-map-red-data-connections-clip-available-multiple-colors-loops-seamlessly-74036836.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fpeople-network-map-red-data-connections-clip-available-multiple-colors-loops-seamlessly-74036836.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6 {
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7 {
+  background-image: url("");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax8 {
+  background-image: ;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header h1{
+display:flex;
+}
+
+nav ul {
+  float: right;
+}
+nav ul li{
+   display: inline;
+   font-family: 'Gothic Medium';
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+   margin: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #800;
+  padding: 5px;
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+#logo{
+    font-family: 'Hind',
+    sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #c4c4c4;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-right: 10px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+#logo:hover{
+  background-color: aliceblue;
+  padding: 10px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 64px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+}
+footer{
+  background-color: #800;
+  margin: 50px;
+}
+footer li{
+  display: inline;
+  background-color: #800;
+  color: white;
+}
+
+
+.fa {
+  font-size: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
